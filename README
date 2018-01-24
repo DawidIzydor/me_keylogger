@@ -1,0 +1,16 @@
+Simple, low-level keyhook keylogger.
+
+It records every clicked character, and saves it to a file every 10 minutes, or 1000 chars. Also sends some messages to make user think it actualy does things
+
+If a key is not recognised by switch() then it puts to a file [CODE] of the key
+
+Default save directory is D:/Logs
+
+The format of file name is a file with timestamp in name and no extension
+
+To do:
+- record all characters
+- make output more human-readable
+
+Known issues
+- It can be easily blocked with programs like Kaspersky
